@@ -1,0 +1,102 @@
+/* Formular-Container */
+#login-form {
+  width: 20%;
+  min-width: 14em;
+  max-width: 22em;
+  padding: 0.75em 0.7em;
+  background-color: #E7E7E7;
+  border-radius: 0.3333333rem;
+  border: 1px solid rgba(34, 36, 38, .25);
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .25);
+  box-sizing: inherit;
+  font-family: Verdana, sans-serif;
+}
+
+/* Felder */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75em;
+}
+
+label {
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 7px;
+  color: #222;
+  display: flex;
+  align-items: center;
+}
+
+/* Auge-Icon */
+.eye {
+  margin-left: 5px;
+  font-size: 1rem;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+/* Eingaben */
+input[type="text"],
+input[type="password"],
+button[type="button"],
+button {
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 0.3333333rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 3px rgba(102, 175, 233, 0.6);
+}
+
+/* Buttonbereich */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* Beenden-Button */
+#close_button {
+  background-color: transparent;
+  color: #c03;
+  border: 1px solid #c03;
+  border-radius: 0.33333333rem;
+  padding: 9px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+#close_button:hover {
+  background: rgba(219,40,40,0.1);
+}
+
+/* Anmelden-Button */
+button[type="submit"] {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  line-height: 1;
+  border-radius: 0.3333333rem;
+  padding: 9px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background: rgba(31,184,67,0.1);
+}

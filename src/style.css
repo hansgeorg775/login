@@ -1,0 +1,36 @@
+center {
+    font-family: Verdana, sans-serif;
+    margin-top: 25px;
+    line-height: 1;
+}
+
+.small-text{
+    font-size: 0.73em;
+    letter-spacing: 0.3px;
+    margin-bottom: 14px;
+}
+
+.medium-text{
+    font-size: 0.85em;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.big-text{
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+}
+
+.certification{
+    margin-top: 12px;
+    width: 2%;
+    height: 2%;
+}
+
+.certification:hover{
+    width: 240px;
+    height: 240px;
+}
