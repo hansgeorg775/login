@@ -70,7 +70,7 @@ input[type="password"]:focus {
 #close_button {
   background-color: transparent;
   color: #c03;
-  border: 1px solid #c03;
+  border: 2px solid #c03;
   border-radius: 0.33333333rem;
   padding: 9px 20px;
   font-size: 13px;
@@ -87,7 +87,7 @@ input[type="password"]:focus {
 button[type="submit"] {
   background-color: transparent;
   color: #000;
-  border: 1px solid #000;
+  border: 2px solid #000;
   line-height: 1;
   border-radius: 0.3333333rem;
   padding: 9px 20px;
