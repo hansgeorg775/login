@@ -53,7 +53,7 @@ function LoginForm() {
       </div>
 
       <div className="buttons">
-        <button type="button" id="close_button">Beenden</button>
+        <a href="https://schule-infoportal.de/login/siewuegym"><button type="button" id="close_button">Beenden</button></a>
         <button type="submit">Anmelden</button>
       </div>
     </form>
