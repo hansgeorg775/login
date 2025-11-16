@@ -17,6 +17,7 @@ center {
     letter-spacing: 0.2px;
     margin-bottom: 20px;
     color: black;
+    text-decoration: none;
 }
 
 .big-text{
@@ -24,6 +25,7 @@ center {
     font-weight: 500;
     letter-spacing: 0.35px;
     color: black;
+    text-decoration: none;
 }
 
 .certification{
