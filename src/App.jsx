@@ -7,11 +7,13 @@ function App(){
   return(
     <center>
       <h1></h1>
+      <a href="https://www.siebold-gymnasium.de">
       <p>
         <span className="medium-text">Informationsportal</span>
         <br />
         <span className="big-text">Siebold-Gymnasium Würzburg</span>
       </p>
+      </a>
       <br />
       <img src={logo} alt="Schullogo" className="logo"/>
       <p className="small-text">
