@@ -16,12 +16,14 @@ center {
     line-height: 1.5;
     letter-spacing: 0.2px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .big-text{
     font-size: 1.1em;
     font-weight: 500;
     letter-spacing: 0.35px;
+    color: black;
 }
 
 .certification{
